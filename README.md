@@ -170,7 +170,7 @@ Concern	How IssueSnap Handles It
 
 bash
 ##### 1. Clone repository
-git clone https://github.com/yourusername/issuesnap.git
+git clone https://github.com/faizan-sarfraz/issuesnap.git
 
 ##### 2. Navigate to project
 cd issuesnap
@@ -180,7 +180,9 @@ flutter pub get
 
 ##### 4. Create .env file
 SUPABASE_URL=your_supabase_url
+
 SUPABASE_ANON_KEY=your_anon_key
+
 SUPABASE_SERVICE_KEY=your_service_key
 
 ##### 5. Run setup script (optional)
