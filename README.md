@@ -1,7 +1,7 @@
 # 📱 IssueSnap - Anonymous Workplace Feedback System
-https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
-https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
-https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 # 🌟 Overview
 IssueSnap is a dual-role anonymous feedback platform that empowers employees to speak up about workplace concerns without fear, while giving administrators a clean dashboard to track, manage, and act on issues.
