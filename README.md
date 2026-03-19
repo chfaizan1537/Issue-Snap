@@ -3,12 +3,12 @@
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-# 🌟 Overview
+## 🌟 Overview
 IssueSnap is a dual-role anonymous feedback platform that empowers employees to speak up about workplace concerns without fear, while giving administrators a clean dashboard to track, manage, and act on issues.
 
 💡 Because the best improvements come from honest feedback
 
-# 🎯 The Problem It Solves
+## 🎯 The Problem It Solves
 
 Challenge	Solution
 
@@ -19,11 +19,11 @@ Challenge	Solution
 🗑️ Employees can manage their posts	 Self-delete option
 
 
-# 👥 Two Sides, One Platform
+## 👥 Two Sides, One Platform
 
-# 👤 Employee Side
+### 👤 Employee Side
 
-## Feature	Description
+### Feature	Description
 
 🕵️ Anonymous Posting	No names, no emails, no tracking
 📸 Image Upload	Attach photos to explain issues better
@@ -31,9 +31,9 @@ Challenge	Solution
 🗑️ Delete Own Posts	Remove feedback if needed
 🔒 True anonymity - just open and post
 
-# 👑 Admin Side
+## 👑 Admin Side
 
-## Feature	Description
+### Feature	Description
 
 📊 Dashboard View	All employee feedback in one place
 🔍 Issue Details	View descriptions + attached images
@@ -42,19 +42,19 @@ Challenge	Solution
 📈 Analytics	See feedback trends over time
 🗑️ Manage Content	Remove inappropriate content
 
-# 🔄 How It Works
+## 🔄 How It Works
 
-# Employee Flow
-<img width="897" height="1000" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
+### Employee Flow
+<img width="400" height="800" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
 
 
-# Admin Flow 
+### Admin Flow 
 
-<img width="400" height="1000" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
+<img width="400" height="800" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
 
-# 📱 App Screens (Detailed)
+## 📱 App Screens (Detailed)
 
-### 👤 Employee Side Screens
+#### 👤 Employee Side Screens
 
 #### 🏠 Landing Screen
 Two big buttons: I'm an Employee / I'm an Admin
