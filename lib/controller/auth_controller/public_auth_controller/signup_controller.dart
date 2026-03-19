@@ -10,10 +10,14 @@ class SignupController extends GetxController {
   void signup() async {
     final supabase = Supabase.instance.client;
     try {
-      if(email.text.isEmpty && password.text.isEmpty){
-        Get.snackbar('Error ', 'Please enter required fields',colorText: Colors.white,backgroundColor: Colors.red.shade300);
-      }
-      else{
+      if (email.text.isEmpty && password.text.isEmpty) {
+        Get.snackbar(
+          'Error ',
+          'Please enter required fields',
+          colorText: Colors.white,
+          backgroundColor: Colors.red.shade300,
+        );
+      } else {
         await supabase.auth.signUp(password: password.text, email: email.text);
         Get.snackbar(
           'Success',
@@ -22,9 +26,13 @@ class SignupController extends GetxController {
           snackPosition: SnackPosition.TOP,
         );
       }
-
     } catch (e) {
-      Get.snackbar('Error ', '${e}',backgroundColor: Colors.red.shade400,colorText: Colors.white);
+      Get.snackbar(
+        'Error ',
+        '${e}',
+        backgroundColor: Colors.red.shade400,
+        colorText: Colors.white,
+      );
     }
   }
 }

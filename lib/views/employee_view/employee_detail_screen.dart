@@ -99,14 +99,19 @@ class _EmployeeDetailScreenState extends State<EmployeeDetailScreen> {
                             child: Column(
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsGeometry.only(right: 10,top: 10),
+                                  padding: EdgeInsetsGeometry.only(
+                                    right: 10,
+                                    top: 10,
+                                  ),
                                   child: Row(
                                     mainAxisAlignment: .end,
                                     children: [
                                       Text(
-
-                                          DateFormat('dd MMM yyyy')
-                                              .format(DateTime.parse(currentfeedback['created_at']))
+                                        DateFormat('dd MMM yyyy').format(
+                                          DateTime.parse(
+                                            currentfeedback['created_at'],
+                                          ),
+                                        ),
                                       ),
                                     ],
                                   ),
@@ -225,25 +230,26 @@ class _EmployeeDetailScreenState extends State<EmployeeDetailScreen> {
                                     child: Image.network(
                                       '${currentfeedback['imagelink']}',
                                       height: 200,
-                                      loadingBuilder: (context, child, loadingProgress) {
-                                        if (loadingProgress == null) {
-                                          return child; // Image fully loaded
-                                        }
-                                        return Center(
-                                          child: CircularProgressIndicator(
-
-                                          ),
-                                        );
-                                      },
-                                      errorBuilder: (context, error, stackTrace) {
-                                        return Center(
-                                          child: Icon(
-                                            Icons.broken_image,
-                                            size: 50,
-                                            color: Colors.grey,
-                                          ),
-                                        );
-                                      },
+                                      loadingBuilder:
+                                          (context, child, loadingProgress) {
+                                            if (loadingProgress == null) {
+                                              return child; // Image fully loaded
+                                            }
+                                            return Center(
+                                              child:
+                                                  CircularProgressIndicator(),
+                                            );
+                                          },
+                                      errorBuilder:
+                                          (context, error, stackTrace) {
+                                            return Center(
+                                              child: Icon(
+                                                Icons.broken_image,
+                                                size: 50,
+                                                color: Colors.grey,
+                                              ),
+                                            );
+                                          },
                                       width: double.infinity,
                                       fit: BoxFit.cover,
                                     ),
