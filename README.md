@@ -282,8 +282,6 @@ MIT License - use freely, learn freely, build freely.
 
 IssueSnap makes both possible. 🚀
 
-Built with ☕, 🍕, and lots of debugging
-Happy coding! 👨‍💻
 
 
 
