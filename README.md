@@ -45,22 +45,23 @@ Challenge	Solution
 # 🔄 How It Works
 
 # Employee Flow
-<img width="897" height="2163" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
+<img width="897" height="1000" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
 
 
 # Admin Flow 
 
-<img width="719" height="2147" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
+<img width="400" height="1000" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
 
 # 📱 App Screens (Detailed)
-## 👤 Employee Side Screens
 
-## 🏠 Landing Screen
+### 👤 Employee Side Screens
+
+#### 🏠 Landing Screen
 Two big buttons: I'm an Employee / I'm an Admin
 
 Clean, welcoming UI
 
-## 📝 Submit Feedback Screen
+#### 📝 Submit Feedback Screen
 Large text field: "What's bothering you? (Anonymous)"
 
 📎 Attach Image Button (camera/gallery)
@@ -69,7 +70,7 @@ Large text field: "What's bothering you? (Anonymous)"
 
 🚀 Submit Anonymously Button
 
-## 📋 My Feedbacks Screen
+#### 📋 My Feedbacks Screen
 
 Grid/list view of all issues posted from this device
 
@@ -85,7 +86,7 @@ Each card shows:
 
 Tap to view full details
 
-# 🔍 Feedback Detail Screen (Employee)
+#### 🔍 Feedback Detail Screen (Employee)
 
 Full feedback text
 
@@ -95,13 +96,13 @@ Upload date/time
 
 🗑️ Delete button with confirmation
 
-# 👑 Admin Side Screens
-##  🔐 Admin Login
+## 👑 Admin Side Screens
+####  🔐 Admin Login
 Secure authentication
 
 Email/password or magic link
 
-## 📊 Admin Dashboard
+#### 📊 Admin Dashboard
 Stats Cards:
 
 📝 Total feedback received
@@ -110,11 +111,11 @@ Stats Cards:
 
 🚩 Action taken
 
-# Recent feedback list
+#### Recent feedback list
 
 Filters: All / New / Reviewed / With images
 
-##  📋 All Feedback Screen
+####  📋 All Feedback Screen
 Sortable table/list
 
 Columns:
@@ -129,7 +130,7 @@ Columns:
 
 ⚡ Actions
 
-## 🔍 Feedback Detail Screen 
+#### 🔍 Feedback Detail Screen 
 Full feedback text
 
 Full-size image viewer
@@ -146,7 +147,7 @@ Action Panel:
 
 📧 Forward to HR (optional)
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 Layer	Technology	Purpose
 Frontend	Flutter	Cross-platform (iOS/Android/Web)
 Backend	Supabase	BaaS + Auth + Database
@@ -157,7 +158,7 @@ State Management	Getx
 Image Picker	image_picker	Camera/gallery access
 Image Viewer	photo_view	Fullscreen image viewing
 
-# 🔒 Privacy & Anonymity
+### 🔒 Privacy & Anonymity
 Concern	How IssueSnap Handles It
 🕵️ Employee identity	❌ No names, emails, or personal data collected
 📱 Device tracking	✅ Only anonymous device ID (can't identify person)
@@ -165,30 +166,30 @@ Concern	How IssueSnap Handles It
 👑 Admin access	🔐 Secure login required
 📜 Data retention	🗑️ Configurable auto-delete policy
 
-# 🚀 Setup Instructions
+### 🚀 Setup Instructions
 
 bash
-# 1. Clone repository
+##### 1. Clone repository
 git clone https://github.com/yourusername/issuesnap.git
 
-# 2. Navigate to project
+##### 2. Navigate to project
 cd issuesnap
 
-# 3. Install dependencies
+##### 3. Install dependencies
 flutter pub get
 
-# 4. Create .env file
+##### 4. Create .env file
 SUPABASE_URL=your_supabase_url
 SUPABASE_ANON_KEY=your_anon_key
 SUPABASE_SERVICE_KEY=your_service_key
 
-# 5. Run setup script (optional)
+##### 5. Run setup script (optional)
 flutter run setup.dart
 
-# 6. Run the app
+##### 6. Run the app
 flutter run
 
-# 📱 App Flow Diagram
+### 📱 App Flow Diagram
 
 
                     ┌─────────────────┐
@@ -218,7 +219,7 @@ flutter run
     └───────────────┘                └───────────────┘
 
 
-# 🧪 Use Cases
+### 🧪 Use Cases
 Scenario	How IssueSnap Helps
 🚻 Harassment	Anonymous report with photo evidence
 🛠️ Safety hazard	Snap photo, submit instantly
@@ -227,7 +228,7 @@ Scenario	How IssueSnap Helps
 🅿️ Parking problems	Snap and share
 👔 Manager behavior	Honest feedback without retaliation
 
-# 🚀 Future Roadmap
+### 🚀 Future Roadmap
 
 🔔 Push notifications for admins
 
@@ -260,7 +261,7 @@ This is an open learning project! Feel free to:
 
 📤 Submit PR
 
-# All skill levels welcome!
+### All skill levels welcome!
 
 # 📬 Connect
 Faizan Sarfraz
@@ -272,12 +273,12 @@ LinkedIn: https://www.linkedin.com/in/faizan-sarfraz-3b150638b
 
 Built with: Flutter 💙 + Supabase ⚡
 
-# 📄 License
+## 📄 License
 MIT License - use freely, learn freely, build freely.
 
-# 💬 Final Words
+## 💬 Final Words
 
-## "The bravest thing you can do is speak up. The smartest thing a company can do is listen."
+##### "The bravest thing you can do is speak up. The smartest thing a company can do is listen."
 
 IssueSnap makes both possible. 🚀
 
