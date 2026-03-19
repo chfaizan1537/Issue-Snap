@@ -45,12 +45,12 @@ Challenge	Solution
 ## 🔄 How It Works
 
 ### Employee Flow
-<img width="400" height="800" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
+<img width="300" height="800" alt="" src="https://github.com/user-attachments/assets/795b4005-730b-4e77-a167-352d9499aaab" />
 
 
 ### Admin Flow 
 
-<img width="400" height="800" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
+<img width="300" height="800" alt="" src="https://github.com/user-attachments/assets/941f2413-1a8d-472b-8bc5-5305891c93f7" />
 
 ## 📱 App Screens (Detailed)
 
