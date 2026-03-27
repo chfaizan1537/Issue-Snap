@@ -268,7 +268,7 @@ This is an open learning project! Feel free to:
 # 📬 Connect
 Faizan Sarfraz
 
-GitHub: @chfaizan1537
+GitHub: @faizan-sarfraz
 
 LinkedIn: https://www.linkedin.com/in/faizan-sarfraz-3b150638b 
 
